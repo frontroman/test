@@ -1,0 +1,147 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    
+}
+
+.resume__card{  
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header{
+    background-color: #2a567d;
+    height: 200px;
+    position: absolute;
+    width: 900px;
+    z-index: 0;
+}
+
+.resume__inner{
+    display: flex;
+}
+
+
+.left__column{
+    width: 35%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container{
+    padding: 20px;
+    width: 250px;
+    background-color: #e3e9e9;
+    height: 100%;
+}
+
+.info__card-left{
+    margin-top: 50px;
+}
+
+
+.contact__inner{
+    margin-top: 20px;
+}
+
+.contact__info{
+    display: flex;
+    margin-top: 15px;
+}
+
+.contact__info img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.edu__info h4{
+    margin-top: 15px;   
+    font-size: 15px;
+}
+
+.edu__info p{
+    color: #959797;
+    margin-top: 3px;
+}
+
+.lang__info{
+    margin-top: 20px;
+}
+
+.lang__info p{
+    margin-top: px;
+}
+
+
+
+.right__column{
+    width: 65%;
+    z-index: 1;
+}
+
+
+.name__pos{
+    color: #fff;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.info__block{
+    background-color: #e3e9e9
+}
+
+.info__card{
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.content{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.content p{
+    margin-top: 5px;
+}
+
+.work__place{
+    margin-top: 10px;
+    width: 100%;
+    color: #959797;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content__skills p{
+    padding-bottom: 15px;
+}
+
+
+.div{
+    width: 100px;
+    position: absolute;
+    top: 200;
+    background-color: #000;
+    height: 200px;
+
+}

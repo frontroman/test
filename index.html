@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/indexStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <title>My Resume</title>
+</head>
+<body>
+ 
+    <div class="header" id="header">
+        <button class="header__burger-btn" id="burger">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                        <a class="menu__link" href="#resume">Немного обо мне</a>
+                        <a class="menu__link" href="#skills">Что умею</a>
+                        <a class="menu__link" href="#letter">Сопроводительное письмо</a>
+                        <a class="menu__link" href="#contact">Соц.Сети</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="slideshow__container">
+                    <div class="slides">
+                        <div class="slidetext">
+                            <div class="title">
+                                <h1>Привет, я Рома и я начинающий front-end разработчик.</h1>
+                            </div>
+                            <div class="suptitle">
+                                <h3>И это мой сайт-резюме</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <div class="slidetext">
+                            <div class="title">
+                                <h1>Здесь более официальное и сжатое резюме.</h1>
+                            </div>
+                            <a href="resume.html" class="resume__btn">Резюме</a>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <div class="slidetext">
+                            <h1>А если хочется почитать интересное резюме с интересными фактами и другими темами не касающемися вакансии, то листайте вниз!</h3>
+                        </div>
+                    </div>
+                    <a  class="prev" id="prev">&#10094</a>
+                    <a  class="next" id="next">&#10095</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="resume" id="resume">
+        <h1>Немного обо мне</h1>
+        <div class="container">
+            <div class="resume__inner">
+                <div class="card">
+                    <div class="card__title">
+                        <a  class="btn btn__open"  id="open__btn-about">О себе</a>
+                    </div>
+                    <div class="light"></div>
+                    <div class="card__text about" id="about">
+                        <h2>Немного о себе</h2>
+                        <p>Привет, меня зовут Рома</p>
+                        <p>Я родился 7 ноября 2000г в Минске</p>
+                        <p>Хочу стать front-end разработчиком</p>
+                        <a class="close__btn btn" id="close__btn-about">Закрыть</a>
+                    </div>
+                    <img src="img/cards/bio.jpg" alt="">
+                </div>
+
+                <div class="card">
+                    <div class="card__title">
+                        <a  class="btn btn__open" id="open__btn-edu">Образование</a>
+                    </div>
+                    <div class="light"></div>
+                    <div class="card__text edu" id="edu">
+                        <h2>Образование</h2>
+                        <p>Закончил колледж по специальности техник-программист</p>
+                        <p>Сейчас учусь в БГУИРЕ ФКТ (заочкно) на первом курсе (должен был быть на 3-ем, но призвали...)</p>
+                        <p>90%, что знаю из программирования я выучил сам. Колледж (да и пока что универ) даёт только самую самую базу (да и преподы, если честно, кроме Delphi ничего не знают).</p>
+                        <a class="close__btn btn" id="close__btn-edu" >Закрыть</a>
+                    </div>
+                    <img src="img/cards/edu.jpg" alt="">
+                </div>
+
+                <div class="card">
+                    <div class="card__title">
+                        <a  class="btn btn__open" id="open__btn-hobby">Хобби</a>
+                    </div>
+                    <div class="light"></div>
+                    <div class="card__text hobby" id="hobby">
+                        <h2>Хобби</h2>
+                        <p>Я немного, чем увлекаюсь. Становясь старше пропадает интерес ко многому, от чего фанател в дестве</p>
+                        <p>Но есть интересы, которые прошли со мной через всю жизнь.</p>
+                        <p>Первое: ФУТБОЛ. Люблю этот вид спорта лет с 6. Люблю смотреть, играть, играть на Play Station и говорить о футболе</p>
+                        <p>Есть ещё пару "Хобби": видеоигры(уже как-то пропадает интерес, но иногда могу засесть на целый день),
+                        , и ещё люблю выезжать на природу, в особенности в лес.
+                        </p>
+                        <a class="close__btn btn" id="close__btn-hobby">Закрыть</a>
+                    </div>
+                    <img src="img/cards/skills.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <a  class="btn btn__open" id="open__btn-character">Что по личным качествам?</a>
+                    </div>
+                    <div class="light"></div>
+                    <div class="card__text character" id="character">
+                        <h2>Что по личным качествам?</h2>
+                        <p>Про себя могу сказать, что люблю опускать руки на пару минут, а потом снова пытаться и пытаться</p>
+                        <p>Не люблю рутину, но спокойно к ней отношусь.</p>
+                        <p>Всегда за новые знания и интересные подходы к поставленным задачам!</p>
+                        <p>Основной мой минус (не знаю, как это назвать и приведу пример)</p>
+                        <p>Вот этот сайт, я уже переделываю 3-раз за ночь, а проверяющий, даже читать, что я здесь написал не будет.</p>
+                        <p>В общем становлюсь заложником своих "грандиозных идей", теряю время, а потом выходит всё абы как.</p>
+                        <a class="close__btn btn" id="close__btn-character">Закрыть</a>
+                    </div>
+                    <img src="img/cards/character.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <a  class="btn btn__open" id="open__btn-army">Армия</a>
+                    </div>
+                    <div class="light"></div>
+                    <div class="card__text hobby" id="army">
+                        <h2>Армия</h2>
+                        <p>Уволился в запас(на дембель ушёл) я в мае 2022 года.</p>
+                        <p>Отслужил я в развдовательном батальоне. Прожил 12/18 месяцев в лесах.</p>
+                        <p>Не жалею, что отслужил, но, многое по своей специальности упустил. Всё таки 1.5 года</p>
+                        <p>Ещё английский за это время стал хуже, но всё, да и после 24 февраля с програмированием в нашей стране для джунов стало вообще сложно</p>
+                        <p>Но всё наверстается, что забылось вспомнится, главное не опускать руки</p>
+                        <a class="close__btn btn" id="close__btn-army">Закрыть</a>
+                    </div>
+                    <img src="img/cards/army.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <a  class="btn btn__open" id="open__btn-future">К чему я стремлюсь </a>
+                    </div>
+                    <div class="light"></div>
+                    <div class="card__text hobby" id="future">
+                        <h2>К чему я стремлюсь</h2>
+                        <p>Стремлюсь я всё таки к тому, чтобы стать фронетром.</p>
+                        <p>Хочется уверенно чувствовать себя в IT-сфере и найти себе место и постоянно развиваться в этом направлении</p>
+                        <p>Хочется сидеть ночами не спать за интересным проектом, за который ещё и платят.</p>
+                        <a class="close__btn btn" id="close__btn-future">Закрыть</a>
+                    </div>
+                    <img src="img/cards/whatsnext.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#header"><div class="up"><p>Наверх</p></div></a>
+
+    <div class="skills" id="skills">
+        <div class="container">
+            <h1>Что умею</h1>
+            <div class="skills__inner">
+                <div class="nice__skills">
+                    <h2>Работал с этим</h2>
+                    <div class="skill__card">
+                        <img src="img/skills/front-tools.png" alt="">
+                        <div class="description">
+                            <p>Да, тут я действительно много практиковался</p>
+                            <p>На собесдеовании точно не буду на каждый вопрос бе-бе с ба-ба</p>
+                        </div>
+                    </div>
+                    <div class="skill__card">
+                        <img src="img/skills/angular.png" alt="">
+                        <div class="description">
+                            <p>Я дипломный проект написал на этом фреймворке</p>
+                            <p>Также на практике(когда ходишь на работу бесплатно) работал с ним</p>
+                            <p>Но работал прям с реальным проектом и выполнил несколько минорных тасков</p>
+                            <p>В общем от А до Я я его не изучил, но принципы работы понял</p>
+                        </div>
+                    </div>
+                    <div class="skill__card">
+                        <img src="img/skills/java.png" alt="">
+                        <div class="description">
+                            <p>Сервер моего дипломного проекта был написан джавке</p>
+                            <p>Естественно также Spring boot, hibernate</p>
+                            <p>И на реальном проекте на практике тоже с ней работал</p>
+                            <p>В общем на практике я был фулл-стеком</p>
+                        </div>
+                    </div>
+                    <div class="skill__card">
+                        <img src="img/skills/mysql.png" alt="">
+                        <div class="description">
+                            <p>Mysql я просто вставил, как самую простую.</p>
+                            <p>Знаком с Oracle, MSSqlServer,Postgresql</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bad__skills">
+                    <h2>Пару раз пробовал</h2>
+                    <div class="skill__card">
+                        <img src="img/skills/react.png" alt="">
+                        <div class="description">
+                            <p>Так, ну реакт я даже не пару раз пробовал</p>
+                            <p>Даже что-то знаю</p>
+                            <p>Стэйты там, пропсы. Проходил это</p>
+                        </div>
+                    </div>
+                    <div class="skill__card">
+                        <img src="img/skills/Csharp.png" alt="">
+                        <div class="description">
+                            <p>Ну с чистым C# проблем не будет. Я ж с Джавой работал</p>
+                            <p>А вот с фреймворками я и вправду пару раз только взаимодействовал</p>
+                            <p>Entity, APS.NET(это платформа)</p>
+                        </div>
+                    </div>
+                    <div class="skill__card">
+                        <img src="img/skills/electronJS.png" alt="">
+                        <div class="description">
+                            <p>Ну, десктоп с помощью фронт-енд инструментов это реально круто</p>
+                            <p>Всё никак руки не доходили углубленно изучить эту технологию</p>
+                            <p>На практике(работе) только пару раз открывал</p>
+                        </div>
+                    </div>
+                    <div class="skill__card">
+                        <img src="img/skills/nodejs.png" alt="">
+                        <div class="description">
+                            <p>Почти нет практики с нодом</p>
+                            <p>Просто как-то сел изучать, а потом решил всё таки не тратить время на него</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="letter" id="letter">
+        <div class="container">
+            <div class="letter__inner">
+                <h3>
+                    Сопроводительное письмо
+                </h3>
+                <p>Посетив сайт rabota.by, я наткулся на вашу вакансию и совершенно не мог не откликнуться на неё.
+                    Ведь на сегодняшний день, в связи со всеми событиями происходящеми в мире, такие вакансии, как стажёр на вес золота.
+                </p>
+                <p>Меня заинтересовала эта вакансия, так как на данный момент она является "трамплином" в интересную для меня сферу деятельности</p>
+                <p>Думаю я владею достаточными навыками, чтобы составить кокуренцию на место стажёра в вашей компании.
+                </p>
+                <p>Благодарю за просмотр моего резюме. Буду рад за отклик и приглашение на собесдеование в удобное для Вас время</p>
+                <p><em>С уважанием Роман Лобода</em></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <a href="https://vk.com/roman_loboda9"><img src="img/social/vk.png" alt=""></a>
+                <a href="https://t.me/shkurex"><img src="img/social/telegram.png" alt=""></a>
+                <a href="https://www.instagram.com/roman_loboda07/"><img src="img/social/inst.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script/slider.js"></script>
+    <script src="script/showBlock.js"></script>
+    <script src="script/closeBlock.js"></script>
+    <script defer src="script/menu.js"></script>
+</body>
+</html>
